@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca" xml:lang="ca">
+<head>
+<!-- 2022-10-16 Sun 23:51 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>interweb</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="© 2022 interweb legaldev \\
+" />
+<meta name="description" content="interweb és un equip multidisciplinar especialitzat en donar presència online."
+ />
+<meta name="keywords" content="desenvolupament web, internet, programació, disseny, redacció, continguts web, continguts, web" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="tufte.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Yesteryear">
+<link rel="stylesheet" type="text/css" href="interweb.css">
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">interweb</h1>
+<ol class="org-ol">
+<li><i>interweb</i> és un equip multidisciplinar especialitzat en donar presència online.</li>
+<li><b>Integrem serveis en disseny, programació i redacció de continguts web.</b></li>
+</ol>
+
+<hr />
+<p>
+<i>" Design is not just what it looks like and feels like. Design is how it works." (Steve Jobs, 2003)</i>
+</p>
+<hr />
+
+<div id="table-of-contents">
+<h2>&Iacute;ndex</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org4d52ce9">1. Disseny web</a>
+<ul>
+<li><a href="#org2d54087">1.1. Importància del disseny web</a></li>
+<li><a href="#org180a167">1.2. Funcionalitat i usabilitat</a></li>
+<li><a href="#org3afdb09">1.3. Fases del disseny web</a></li>
+</ul>
+</li>
+<li><a href="#org3d7cb32">2. Programació</a></li>
+<li><a href="#org0d22fa3">3. Redacció de continguts</a></li>
+<li><a href="#org8afbe8a">4. Administració web</a></li>
+<li><a href="#orgd6acf6a">5. Productes interweb ja desenvolupats</a>
+<ul>
+<li><a href="#org10756b4">5.1. Seus virtuals d'Oficines Locals d'Habitatge</a></li>
+<li><a href="#orgb1d3ecc">5.2. Sistemes (cues) de gestió d'espera (cita prèvia)</a></li>
+<li><a href="#org351c543">5.3. Webs corporatives i institucionals.</a></li>
+<li><a href="#org4f7b286">5.4. Webs informatives de polítiques de gènere</a></li>
+<li><a href="#orgcffe8c2">5.5. Webs de cooperació internacional al desenvolupament</a></li>
+</ul>
+</li>
+<li><a href="#orgc0949ba">6. Clients</a></li>
+<li><a href="#orga181c95">7. Vies de contacte</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4d52ce9" class="outline-2">
+<h2 id="org4d52ce9"><span class="section-number-2">1</span> Disseny web</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org2d54087" class="outline-3">
+<h3 id="org2d54087"><span class="section-number-3">1.1</span> Importància del disseny web</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+El disseny web és una activitat que consisteix en la planificació, disseny i implementació de llocs web i pàgines web. No és simplement una aplicació del disseny convencional, ja que requereix tenir en compte qüestions tals com navegabilitat, interactivitat, usabilitat, arquitectura de la informació i la interacció de mitjans com l'àudio, text, imatge, enllaços i vídeo. La unió d'un bon disseny amb una jerarquia ben elaborada de continguts augmenta l'eficiència del web com a canal de comunicació i intercanvi de dades, que dona possibilitats amb el contacte directe entre el productor i el consumidor de continguts, característica destacable del mitjà. El disseny web ha vist àmplia aplicació en els sectors públics i comercials d'Internet especialment a la World Wide Web. 
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org180a167" class="outline-3">
+<h3 id="org180a167"><span class="section-number-3">1.2</span> Funcionalitat i usabilitat</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+La usabilitat web (UX o user experience, en anglès) és el grau de facilitat d'ús que té una pàgina web per als usuaris que accedeixen i interactuen amb ella. Una de les missions principals del dissenyador web és fer que una pàgina web tingui un disseny web usable. Jakob Nielsen està considerat el pare de la usabilitat i, el 1999 va llançar al mercat el llibre Designing Web Usability: The Practice of Simplicity on exposa els 10 principis que han de regir la usabilitat de qualsevol disseny web. Aquests són:
+</p>
+
+<ul class="org-ul">
+<li>Visibilitat de l'estat del sistema. El sistema, és a dir la web o aplicació, sempre ha de mantenir en tot moment els usuaris informats sobre el que està succeint, a través de missatges en temps i forma.</li>
+<li>Coincidència entre el sistema i el món real El sistema ha de parlar l' idioma dels usuaris, amb paraules, frases i conceptes familiars per a l' usuari i no amb termes tècnics.</li>
+<li>Control i llibertat de l'usuari. Donar la possibilitat als usuaris a corregir els seus errors en la navegació per la pàgina web. El botó de tornar enrere seria un bon exemple.</li>
+<li>Consistència i estàndards. Els usuaris no haurien d'haver de preguntar-se si diferents paraules, situacions o accions signifiquen el mateix.</li>
+<li>Prevenció d'errors. Fins i tot millor que els bons missatges d'error és un disseny acurat que evita que ens equivoquem.</li>
+<li>Reconeixement en lloc de record. Hem de minimitzar en la mesura del possible que l'usuari hagi de recordar que ha fet prèviament fent visibles els objectes, les accions i les opcions.</li>
+<li>Flexibilitat i eficiència d'ús. Els acceleradors, que no són vistos per l'usuari novaiorquès, sovint poden accelerar la interacció per a l'usuari expert, de manera que el sistema pot atendre tant usuaris inexperts com experimentats.</li>
+<li>Disseny estètic i minimalista. En disseny web menys és més. Hem de mostrar la informació estrictament necessària perquè l'usuari no es perdi o marxi. Hem de conduir-lo per on ens interessa.</li>
+<li>Ajudar els usuaris a reconèixer, diagnosticar i recuperar-se d'errors. Els missatges d'error s'han d'expressar en un llenguatge senzill (sense codis), indicar amb precisió el problema i suggerir constructivament una solució.</li>
+<li>Ajut i documentació. Tot i que és millor si el sistema es pot utilitzar sense documentació, pot ser necessari proporcionar ajut i documentació.</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org3afdb09" class="outline-3">
+<h3 id="org3afdb09"><span class="section-number-3">1.3</span> Fases del disseny web</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Pel disseny de pàgines web hem de tenir en compte tres etapes:
+</p>
+
+<p>
+La primera, és el disseny visual de la informació que es desitja editar. En aquesta etapa es treballa distribuint el text, els gràfics, els vincles a altres documents i altres objectes multimèdia que es considerin pertinents. És important que abans de treballar sobre l'ordinador es realitzi un pre-disseny sobre el paper mitjançant l'ús de wireframes. Això facilitarà tenir un ordre clar sobre el disseny.
+</p>
+
+<p>
+La segona, és l'estructura i relació jeràrquica de les pàgines del lloc web, una vegada que es té aquest esbós es passa a 'escriure' la pàgina web. Per això, i fonamentalment per manipular els vincles entre documents, es va crear el llenguatge de marcació d'hipertext o HTML. Els enllaços que apareixen subratllats en aquests document i altres de Wikipedia són exemples d'hipertext.
+</p>
+
+<p>
+La tercera, etapa consisteix en el posicionament en cercadors o SEO. Aquesta consisteix a optimitzar l'estructura del contingut per millorar la posició en que apareix la pàgina en els resultats d'una determinada cerca.
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org3d7cb32" class="outline-2">
+<h2 id="org3d7cb32"><span class="section-number-2">2</span> Programació</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+A <i>interweb</i> utilitzem aquest ventall de tecnologies:
+</p>
+
+<dl class="org-dl">
+<dt>HTML5</dt><dd>HTML5 (HyperText Markup Language, versió 5) és la cinquena gran revisió del llenguatge bàsic de la World Wide Web, HTML. HTML5 especifica dues variants de sintaxi per a HTML: un «clàssic» HTML (text / html), la variant coneguda com a HTML5, i una variant XHTML coneguda com a sintaxi XHTML5 que haurà de ser usada com a XML (XHTML). El desenvolupament d'aquest codi és regulat pel Consorci W3C.</dd>
+</dl>
+
+
+<dl class="org-dl">
+<dt>CSS3</dt><dd>CSS està dissenyat principalment per permetre la separació de contingut del document (escrit en HTML o un llenguatge de marques similar) de la presentació del document, incloent-hi elements com la disposició, colors, i fonts. Aquesta separació pot millorar l'accessibilitat al contingut, proporcionar més flexibilitat i control en l'especificació de característiques de presentació, permetre que múltiples pàgines comparteixin un format comú, i redueix complexitat i repetició en el contingut estructural (com per exemple al permetre disseny web sense taules).</dd>
+</dl>
+
+
+<dl class="org-dl">
+<dt>Javascript</dt><dd>JavaScript és un llenguatge script basat en objectes implementat originàriament per Netscape Communications Corporation, i que va derivar en l'estàndard ECMAScript.És conegut sobretot pel seu ús en pàgines web, però també s'utilitza en altres aplicacions. Quan s'utilitza com a llenguatge al costat-client en l'àmbit web, els scripts s'executen al navegador web, servint com a extensió de les capacitats del llenguatge de la web HTML. La interacció entre JavaScript, el codi HTML i el navegador web es fa possible mitjançant un conjunt d'objectes que representen l'estructura d'una pàgina web en forma d'arbre, anomenat Model d'Objectes del Document.</dd>
+</dl>
+
+
+<dl class="org-dl">
+<dt>Bootstrap</dt><dd>Bootstrap, també conegut com a "bootstrap for twitter" o "blueprint for twitter" és una biblioteca multiplataforma o conjunt d'eines de codi obert per al fàcil disseny de llocs i aplicacions web. Conté plantilles de disseny amb tipografia, formularis, botons, quadres, menús de navegació i altres elements de disseny basat en HTML i CSS, així com extensions de Javascript addicionals. A diferència de molts frameworks web, només s'ocupa del desenvolupament "front-end", no té res a veure amb el "back-end". Bootstrap és el segon projecte més destacat en GitHub i és usat per la NASA i la MSNBC entre altres organitzacions.</dd>
+</dl>
+
+
+<dl class="org-dl">
+<dt>Vue.js</dt><dd>Vue.js és un entorn de treball per a aplicacions web o framework escrit en JavaScript per a desenvolupar interfícies d'usuari. Vue.js és de codi obert on el pots trobar aquí , aquest té una llicència MIT. Característiques: En un model Model-Vista-Controlador, vue.js representa majoritàriament la part Vista. Fa ús de plantilles basades en HTML.</dd>
+</dl>
+
+
+<dl class="org-dl">
+<dt>jQuery</dt><dd>jQuery és una biblioteca o framework de Javascript, creada inicialment per John Resig, que permet simplificar la manera d'interaccionar amb els documents HTML, manipular l'arbre DOM, gestionar esdeveniments, desenvolupar animacions i afegir interacció amb la tecnologia AJAX en pàgines web.Es va presentar el gener del 2006 a BarCamp NYC.D'acord amb una anàlisi de la Web (realitzat l'any 2017) JQuery és la biblioteca de JavaScript més utilitzada, per un ampli marge. jQuery ofereix una sèrie de funcionalitats basades en Javascript que d'una altra manera requerien molt més codi, és a dir, amb les funcions d'aquesta biblioteca s'aconsegueixen bons resultats en menys temps i espai.</dd>
+</dl>
+
+
+<dl class="org-dl">
+<dt>Bash</dt><dd>Serveix per automatitzar processos, en aquest cas web. Bash és un intèrpret d'ordres, usat sovint pel sistema GNU/Linux. És qui s'encarrega de comunicar l'usuari amb el sistema. No és l'únic intèrpret existent per a Linux, però si un dels més emprats. Aquest programa, desenvolupat per GNU, és una adaptació lliure de l'intèrpret d'ordres propi d'Unix, de codi font tancat, anomenat Bourne shell o sh. Lluny de recrear aquest entorn, el Bash el millora en diversos aspectes, podent-lo considerar una extensió del mateix sh.</dd>
+</dl>
+
+<p>
+(fonts descriptives: <i>Wikipedia</i>)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0d22fa3" class="outline-2">
+<h2 id="org0d22fa3"><span class="section-number-2">3</span> Redacció de continguts</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Redacció de continguts web</li>
+<li>Redacció de notes de premsa</li>
+<li>Redacció de butlletins electrònics</li>
+<li>Gestió (community manager) de xarxes socials</li>
+<li>Fotografia</li>
+<li>Infografia</li>
+<li>Assessorament en el posicionament SEO</li>
+</ul>
+
+<p>
+No dubti en contactar amb nosaltres per ampliar informació sobre aquests serveis i rebre un assessorament personalitzat: <a href="mailto:suport@interweb.cat">suport@interweb.cat</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8afbe8a" class="outline-2">
+<h2 id="org8afbe8a"><span class="section-number-2">4</span> Administració web</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+És una tasca imprescindible d'entrada i de continuïtat, en relació al servidor de <i>hosting</i>:
+</p>
+
+<ul class="org-ul">
+<li>Registre i renovació de dominis</li>
+<li>Configuració de DNS</li>
+<li>Configuració de hosting</li>
+<li>Configuració de correu electrònic</li>
+<li><p>
+Automatització de processos (shell scripting)
+</p>
+
+<p>
+No dubti en contactar amb nosaltres per ampliar informació sobre aquests serveis i rebre un assessorament personalitzat: <a href="mailto:suport@interweb.cat">suport@interweb.cat</a>
+</p></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgd6acf6a" class="outline-2">
+<h2 id="orgd6acf6a"><span class="section-number-2">5</span> Productes interweb ja desenvolupats</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org10756b4" class="outline-3">
+<h3 id="org10756b4"><span class="section-number-3">5.1</span> Seus virtuals d'Oficines Locals d'Habitatge</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+Desenvolupem seus virtuals d'Oficines Locals d'Habitatge, conveniades amb l'Agència de l'Habitatge de Catalunya. Aportem l'estructura de coneixement, en base al catàleg de Serveis de l'AHC, desplegant en línia tot allò que s'estigui concretant com a OLH física.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb1d3ecc" class="outline-3">
+<h3 id="orgb1d3ecc"><span class="section-number-3">5.2</span> Sistemes (cues) de gestió d'espera (cita prèvia)</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+Disposem de programari propi i adaptat, per donar un servei públic o privat amb cita prèvia. El programari és 100% configurable als requeriments del client, en funció de les característiques concretes del servei a donar, podent triar dies, horaris i temps d'atenció de forma completament actualitzable. El sistema no precisa de monitors ni d'instal·lacions de maquinari, ja que l'usuari de forma simple només amb el seu telèfon movil o ordinador d'escriptori.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org351c543" class="outline-3">
+<h3 id="org351c543"><span class="section-number-3">5.3</span> Webs corporatives i institucionals.</h3>
+</div>
+
+<div id="outline-container-org4f7b286" class="outline-3">
+<h3 id="org4f7b286"><span class="section-number-3">5.4</span> Webs informatives de polítiques de gènere</h3>
+</div>
+
+<div id="outline-container-orgcffe8c2" class="outline-3">
+<h3 id="orgcffe8c2"><span class="section-number-3">5.5</span> Webs de cooperació internacional al desenvolupament</h3>
+</div>
+</div>
+
+<div id="outline-container-orgc0949ba" class="outline-2">
+<h2 id="orgc0949ba"><span class="section-number-2">6</span> Clients</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>Administració (sector públic)</li>
+<li>Petites i mitjanes empreses.</li>
+<li>Tercer sector.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga181c95" class="outline-2">
+<h2 id="orga181c95"><span class="section-number-2">7</span> Vies de contacte</h2>
+<div class="outline-text-2" id="text-7">
+<dl class="org-dl">
+<dt>- Informació:</dt><dd><a href="mailto:info@interweb.cat">info@interweb.cat</a></dd>
+<dt>- Sector públic:</dt><dd><a href="mailto:sectorpublic@interweb.cat">sectorpublic@interweb.cat</a></dd>
+<dt>- Incidències:</dt><dd><a href="mailto:suport@interweb.cat">suport@interweb.cat</a></dd>
+</dl>
+
+<hr />
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Autor: © 2022 interweb legaldev <br />
+</p>
+<p class="email">Email: <a href="mailto:info@interweb.cat">info@interweb.cat</a></p>
+<p class="date">Created: 2022-10-16 Sun 23:51</p>
+</div>
+</body>
+</html>

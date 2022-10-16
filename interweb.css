@@ -1,0 +1,29 @@
+
+      .title {
+        font-family: 'Yesteryear', serif;
+	font-size: 12vw;
+	font-weight: 100;
+	color: maroon;
+		text-decoration: underline;
+padding-bottom: 2vw;
+      }
+      .subtitle {
+	  font-family: serif;
+	  font-size: 1vw;
+	  		    text-decoration: none;
+		    color: maroon;
+		}
+
+/*
+      2hr
+       {
+       border-top: 1px solid darkgreen;
+       color: darkgreen;
+       }
+       
+      2h2
+       {
+              color: darkgreen;
+       }
+
+*/
